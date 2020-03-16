@@ -1,19 +1,92 @@
+<!DOCTYPE html>
+<html>
 
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<head>
+    <!--Import Google Icon Font-->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!--Import materialize.css-->
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /> -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
 
-    <body>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<style>
+    .bg{
+        background-image: url('husen-siraaj-qRZ-jRE1YHI-unsplash.jpg');
+        /* background-image: url('https://images.unsplash.com/photo-1572557798994-41431698dc8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'); */
+        /* background-image: url('https://images.unsplash.com/photo-1584201771941-b388059bfe02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'); */
+        background-clip: content-box;
+        width: auto;
+        height: auto;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: screen;
+    }
+</style>
+<body class="bg">
+    <nav>
+        <div class="nav-wrapper"  style="background-color:indigo;">
+            <a href="#" class="brand-logo center">Happy Coding</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
 
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-    </body>
-  </html>
+            </ul>
+        </div>
+    </nav>
+    <!-- <div class="progress">
+        <div class="indeterminate">
+        </div>
+    </div> -->
+    <div class="container" style="text-align: left;">
+        <div class="row">
+            <div class="col s12">
+                <div class="card-panel" style="background-color:indigo;">
+                    <span class="white-text">
+                        <p style=" font-weight: bold; text-align:  center; text-size-adjust: inherit;">Arjun is a student perusing CSE in one of the top colleges in India.<br>
+                            Its the first day of his math class. Though he is cool in math he is homesick.<br>
+                            His teacher gives him a question to keep his mind occupied.<br>
+                            Can you help Arjun solve it but there is one problem Only when his teacher thinks he's
+                            deviated<br>
+                            from homesickness he stops giving input until then you have to give Arjun the correct
+                            answer.<br>
+                            Happy Coding.<br></p><p style="text-size-adjust: inherit;">
+                            [Hint:EOF(end of file concept is important along with infinite loop)]<br>
+                           <h6 style="color: black;"> Input:</h6><br>
+                            12 30<br>
+                            3 30<br>
+                            <h6 style="color: black;">  Output:</h6><br>
+                            195<br>
+                            75</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container" style="text-align: center;">
+        <iframe height="700" width="100%" src="https://repl.it/@eswarabisheak/HoarseAcrobaticSpecialist?lite=true"
+            scrolling="no" frameborder="yes" allowtransparency="true" allowfullscreen="true"
+            sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+
+    <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.collapsible').collapsible();
+            $('.sidenav').sidenav();
+            $('.modal').modal();
+        });
+    </script>
+
+</body>
+
+</html>
